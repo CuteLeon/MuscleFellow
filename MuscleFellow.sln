@@ -5,6 +5,11 @@ VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MuscleFellow.Models", "MuscleFellow.Models\MuscleFellow.Models.csproj", "{91164A76-FBFD-47E9-B8C3-4E73E3227CE5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MuscleFellow.Data", "MuscleFellow.Data\MuscleFellow.Data.csproj", "{746CE7B8-BE0F-4640-8E3C-5CF4FB913D0E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{91164A76-FBFD-47E9-B8C3-4E73E3227CE5} = {91164A76-FBFD-47E9-B8C3-4E73E3227CE5}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +20,10 @@ Global
 		{91164A76-FBFD-47E9-B8C3-4E73E3227CE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91164A76-FBFD-47E9-B8C3-4E73E3227CE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91164A76-FBFD-47E9-B8C3-4E73E3227CE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{746CE7B8-BE0F-4640-8E3C-5CF4FB913D0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{746CE7B8-BE0F-4640-8E3C-5CF4FB913D0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{746CE7B8-BE0F-4640-8E3C-5CF4FB913D0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{746CE7B8-BE0F-4640-8E3C-5CF4FB913D0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
