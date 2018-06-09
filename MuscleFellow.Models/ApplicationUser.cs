@@ -7,16 +7,16 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace MuscleFellow.Models
 {
-    class ApplicationUser:IdentityUser<string>
+    public class ApplicationUser:IdentityUser<string>
     {
-
         public ApplicationUser()
         {
             Id = Guid.NewGuid().ToString("D");
         }
+
         public ApplicationUser(string userName)
         {
-            UserName = userName;
+            base.UserName = userName;
         }
     }
 }
