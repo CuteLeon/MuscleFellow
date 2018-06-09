@@ -1,8 +1,10 @@
 ﻿using System;
-using Microsoft.
+using Microsoft.EntityFrameworkCore;
+
 namespace MuscleFellow.Data
 {
     public class MuscleFellowSampleDataInitializer
     {
+
     }
 }
