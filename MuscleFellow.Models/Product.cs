@@ -6,16 +6,16 @@ namespace MuscleFellow.Models
 {
     public class Product
     {
-        [DisplayName("产品ID")]
+        [DisplayName("商品ID")]
         public Guid ProductID { get; set; }
 
         [DisplayName("生产商ID")]
         public int BrandID { get; set; }
 
-        [DisplayName("种类ID")]
+        [DisplayName("分类ID")]
         public int CategoryID { get; set; }
 
-        [DisplayName("产品名称")]
+        [DisplayName("商品名称")]
         public string ProductName { get; set; }
 
         [DisplayName("缩略图")]
@@ -38,11 +38,11 @@ namespace MuscleFellow.Models
 
         [DisplayName("重量")]
         public float Weight { get; set; }
-
+    
         [DisplayName("重量单位")]
         public string UnitOfWeight { get; set; }
 
-        [DisplayName("价格单位")]
+        [DisplayName("单价")]
         public float UnitPrice { get; set; }
 
         [DisplayName("货币")]

@@ -12,7 +12,7 @@ namespace MuscleFellow.Models
         [DisplayName("图片ID"), Key]
         public int ImageID { get; set; }
 
-        [DisplayName("产品ID")]
+        [DisplayName("商品ID")]
         public Guid ProductID { get; set; }
 
         [DisplayName("相关链接")]
